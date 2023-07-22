@@ -5,3 +5,4 @@
  env.SONAR_EXTRA_OPTS = "-Dsonar.java.binaries=./target"
 # added
  ci()
+ curl "http://35.228.129.34:8080/multibranch-webhook-trigger/invoke?token=cart"
