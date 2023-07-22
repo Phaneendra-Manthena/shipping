@@ -3,5 +3,5 @@
  env.app_lang = "maven"
  env.dependencyCheck = "false"
  env.SONAR_EXTRA_OPTS = "-Dsonar.java.binaries=./target"
- env.SONAR_SCAN = "false"
+ env.sonarqube_scan = "false"
  ci()
