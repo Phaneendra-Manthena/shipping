@@ -4,4 +4,3 @@
  env.dependencyCheck = "false"
  env.SONAR_EXTRA_OPTS = "-Dsonar.java.binaries=./target"
  ci()
-# files added
