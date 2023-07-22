@@ -2,5 +2,6 @@
  env.component = "shipping"
  env.app_lang = "maven"
  env.dependencyCheck = "true"
+ env.SONAR_EXTRA_OPTS = "-Dsonar.java.binaries=./target"
 
  ci()
